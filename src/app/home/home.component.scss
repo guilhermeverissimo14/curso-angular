@@ -1,0 +1,30 @@
+*{
+  background-color:  #071A21;
+}
+
+main{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2em;
+  background-color:  #BB9D81;
+  width: 30%;
+  border-radius: 10px;
+  margin-top: 1em;
+}
+
+.card h1{
+  background-color: #BB9D81;
+}
+
+.card img{
+  background-color: #BB9D81;
+}
