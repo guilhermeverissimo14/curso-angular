@@ -1,10 +1,9 @@
 *{
-  background-color:  #071A21;
+  background-color:  #bdc4c7;
 }
 
 main{
-  display: grid;
-  grid-template-columns: auto auto auto;
+  display: flex;
   flex-wrap: wrap;
   gap: 2em;
 }
@@ -15,16 +14,17 @@ main{
   align-items: center;
   justify-content: center;
   padding: 2em;
-  background-color:  #BB9D81;
+  background-color:  #3f51b5;
   width: 30%;
   border-radius: 10px;
   margin-top: 1em;
 }
 
 .card h1{
-  background-color: #BB9D81;
+  background-color: #3f51b5;
+  color: white;
 }
 
 .card img{
-  background-color: #BB9D81;
+  background-color: #3f51b5;
 }
